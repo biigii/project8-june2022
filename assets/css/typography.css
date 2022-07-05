@@ -1,1 +1,24 @@
+.heading {
+  /* styling here */
+}
 
+#heading {
+  /* styling here */
+}
+
+[href="https://www.google.com"] {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+[href] {
+  
+}
+
+/* [class="heading"] {
+  color: #f77;
+} */
+/* B.E.M */
+[data-something] {
+  color: #0000ff
+}
