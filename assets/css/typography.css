@@ -1,24 +1,23 @@
-.heading {
-  /* styling here */
+@font-face {
+    font-family: 'Lato Regular';
+    src: '../fonts/lato-regular.ttf';
 }
 
-#heading {
-  /* styling here */
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('../fonts/lato-bold.ttf');
 }
 
-[href="https://www.google.com"] {
-  text-decoration: none;
-  font-size: 40px;
+@font-face {
+    font-family: 'Lato Light';
+    src: url('../fonts/lato-light.ttf');
 }
 
-[href] {
-  
+h1 {
+    font-family: 'Lato Light';
+    font-size: 60px;
 }
 
-/* [class="heading"] {
-  color: #f77;
-} */
-/* B.E.M */
-[data-something] {
-  color: #0000ff
+p {
+  font-family: 'Lato Regular';
 }
